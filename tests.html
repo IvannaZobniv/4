@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Геоінформаційна сторінка</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <!-- Заголовок чи шапка сайту -->
+        <h1>Геоінформаційна сторінка</h1>
+        <!-- Рядок пошуку з Google-пошуком -->
+        <form action="https://www.google.com/search" method="GET" target="_blank">
+            <input type="text" name="q" placeholder="Пошук в Google...">
+            <input type="submit" value="Пошук">
+        </form>
+    </header>
+
+    <main>
+        <!-- Контентний блок з трьома колонками -->
+        <div id="container">
+            <div id="content">
+                <div id="left-column">
+                    <h2>Розділ 1</h2>
+                    <ul>
+                        <li><a href="#section1.1">Підрозділ 1.1</a></li>
+                        <li><a href="#section1.2">Підрозділ 1.2</a></li>
+                    </ul>
+                </div>
+
+                <div id="center-column">
+                    <h2>Розділ 2</h2>
+                    <ol>
+                        <li><a href="#section2.1">Підрозділ 2.1</a></li>
+                        <li><a href="#section2.2">Підрозділ 2.2</a></li>
+                    </ol>
+                </div>
+
+                <div id="right-column">
+                    <h2>Розділ 3</h2>
+                    <ul>
+                        <li><a href="#section3.1">Підрозділ 3.1</a></li>
+                        <li><a href="#section3.2">Підрозділ 3.2</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Додайте ще дві колонки з контентом, які бажаєте -->
+
+            <!-- Рисунки з поясненнями -->
+            <div class="images">
+                <figure>
+                    <img src="abstract-digital-art-coloful-huawei-mate-background-4k-wallpaper-uhdpaper.com-261@0@f.jpg" alt="Пояснення до першого зображення" width="300px">
+                    <figcaption>Пояснення до першого зображення</figcaption>
+                </figure>
+                <figure>
+                    <img src="chinese-house-night-moon-scenery-digital-art-4k-wallpaper-uhdpaper.com-837@1@m.jpg" alt="Пояснення до другого зображення" width="300px" usemap="#workmap">
+                    <map name="workmap">
+                        <area shape="rect" coords="0,0,100,100" href="https://w3schoolsua.github.io/html/html_images_imagemap.html" alt="Посилання 1">
+                    </map>
+                    <figcaption>Пояснення до другого зображення</figcaption>
+                </figure>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Підвал сайту -->
+        <p>&copy; 2023 Геоінформаційна сторінка</p>
+    </footer>
+</div>
+</body>
+</html>

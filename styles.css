@@ -1,0 +1,81 @@
+/* Reset стилів для більшої універсальності */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Оформлення контейнера сторінки */
+.container {
+    width: 1200px;
+    margin: 40px auto;
+}
+
+/* Оформлення заголовка чи шапки сайту */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Оформлення рядка пошуку */
+form input[type="text"] {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Оформлення контентного блоку з колонками */
+#container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#content {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+#left-column, #center-column, #right-column {
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+}
+
+#left-column {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#center-column {
+    padding: 20px;
+}
+
+#right-column {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Оформлення списків */
+ul,
+ol {
+    margin-bottom: 15px;
+}
+
+/* Оформлення рисунків та пояснень */
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Вирівнювання зліва */
+    gap: 20px;
+}
+
+img {
+    float:right;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+figcaption {
+    margin-top: 5px;
+}
